@@ -13,11 +13,13 @@ W. -C. Yang, T. -A. Jian, Y. -C. Lin and R. -B. Lin, "Engineering ASAP7 PDK with
 
 ## Directory Structure
 
+- **`calibre/`**: Contains DRC/LVS rule file for Calibre.
 - **`layout/`**: Contains the GDSII and CDL file for the standard cell library, DRC/LVS rule file for Calibre, and the technology file for the Virtuoso Layout Editor.
+- **`models/`**: Provides SPICE model card for the ASAP7-BB PDK.
 - **`P&R/`**: Scripts and setup files for Place and Route (P&R) using Synopsys ICC2.
 - **`RC/`**: Configuration and command files for parasitic extraction using Synopsys StarRC.
 - **`synthesis/`**: Scripts for logic synthesis using Synopsys Design Compiler (DC).
-- **`tf/`**: Provides SPICE model card for the ASAP7-BB PDK.
+- **`tf/`**: Contains the technology file for the Virtuoso Layout Editor.
 
 ## Reference
 ```bibtex
