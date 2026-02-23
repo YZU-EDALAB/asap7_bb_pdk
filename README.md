@@ -2,7 +2,7 @@
 
 1. This PDK, here called ASAP7-BB PDK, is adapted from ASAP7 PDK release r1p5 (for r1p7 please see https://github.com/The-OpenROAD-Project/asap7). The modified PDK have carried out following modification:
    - Implement single diffusion break.
-   - Implement fin depopulation by increase fin height from 32nm to 49nm.
+   - Implement fin depopulation by increasing fin height from 32nm to 49nm.
    - Implement contact over active gate technology.
    - Implement buried power rail (BPR) and backside metal technology.
 2.	ASAP7-BB PDK also includes a 6-track standard cell library (BPR6L) whose cells each include a BPR respectively at the top and bottom edges of the cell.
